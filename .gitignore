@@ -1,6 +1,6 @@
 .gitignore
 
-# C*
+##C#
 build
 build/
 src/gen-java/
@@ -18,7 +18,7 @@ pylib/cqlshlib/serverversion.py
 !lib/cassandra-driver-internal-only-*.zip
 !lib/puresasl-*.zip
 
-# C* debs
+#!C* debs
 build-stamp
 build.properties
 debian/cassandra*debhelper*
@@ -87,3 +87,4 @@ cassandra-builds/
 cassandra-dtest/
 
 conf/triggers/trigger-example.jar
+ 
